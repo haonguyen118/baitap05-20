@@ -1,0 +1,12 @@
+
+    .box-model{
+    width: 100px;
+    height: 40px;
+    background-color: azure;
+    border-top: 2px solid red;
+    border-bottom: 5px double green;
+    border-left: 5px groove #673ab7;
+    border-right: 4px dotted blue;
+    text-align: center;
+   line-height: 40px;
+}
