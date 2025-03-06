@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            main{
+              width: 300px;
+              height: 300px;  
+              background-color: bisque;
+              border: 10px solid black;
+              border-radius: 50%;
+              position: relative;
+            }
+            #hour{
+                width: 80px;
+                height: 5px;
+                margin-top: 150px;
+                margin-left: 150px;
+                background-color: black;
+                position: absolute;
+                transform: rotate(15deg);
+                transform-origin: bottom left;
+                animation: hourRotage 60minute steps(60) infinite;
+            }
+
+            @keyframes hourRotage {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+            }
+            #minute{
+                width: 150px;
+                height: 5px;
+                margin-top: 150px;
+                margin-left: 150px;
+                background-color: black;
+                position: absolute;
+                transform-origin: bottom left;
+                animation: minuteRotage 60s steps(60) infinite;
+            }
+
+            @keyframes minuteRotage {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div id="hour"></div>
+            <div  id="minute"></div>
+            
+        </main>
+        
+    </body>
+    </html>
