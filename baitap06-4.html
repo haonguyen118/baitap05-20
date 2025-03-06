@@ -1,0 +1,85 @@
+baitap06-4.html
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /*css phan header*/
+            header{
+            background-color: aquamarine;
+            color: white;
+            text-align: center;
+            width: 1000px;
+            height: 100px;
+            line-height 100px;;
+            }
+            a{
+                margin: 10px;
+            }
+            /*css phan main*/
+            div-container{
+                margin-top: 10px;
+                display: flex;
+            }
+            div-left{
+                width: 400px;
+                height: 500px;
+                text-align: left;
+                border: 1px solid gray;
+                background-color: azure;
+            }
+            div-right{
+                width: 500px;
+                height: 500px;
+                text-align: left;
+                margin-left: 20px;
+            }
+            .box-model{
+                border-bottom: 1px solid gray;
+            }
+            /*css cho phan footer*/
+            div{
+                width: 800px;
+                height: 40px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                line-height: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <header >
+            <h1>My Blog</h1>
+            <a style="text-decoration: none;" href="nowhere">Home</a>
+            <a style="text-decoration: none;"href="nowhere">Categories</a>
+            <a style="text-decoration: none;"href="nowhere">About</a>
+        </header>
+        <div-container> 
+            <div-left>
+                <h2>Chuyen muc</h2>
+                <ul>
+                    <li><a href="nowhere">Css</a></li>
+                    <li><a href="nowhere">Javascript</a></li>
+                    <li><a href="nowhere">HTML</a></li>
+                </ul>
+            </div-left>
+            <div-right>
+                <b>Bai viet 1</b><br>
+                <img src="./js-top.png"; width="200px"; height="150px">
+                <p class="box-model">Day la noi dung tom tat cua bai viet 1</p>
+                <b style="border-bottom: 2px solid gray">Bai viet 2</b><br>
+                <img src="./javascript-basic-rule.webp" width="200px"; height="150px">
+                <p class="box-model">Day la noi dung tom tat cua bai viet 2</p>
+            </div-right>
+        </div-container>
+        <footer>
+            <div>
+                <p>Lien he: <a href="nowhere">email@example.com</a></p>
+            </div>
+        </footer>
+        
+    </body>
+    </html>
