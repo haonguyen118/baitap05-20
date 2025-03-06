@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /*css phan dau trang*/
+        header{
+            background-color: black;
+            color: white;
+            width: 800px;
+            height: 50px;
+            display: flex;
+            justify-content : space-between;
+            line-height: 50px;  
+            padding: 20px;     
+         }
+        div-left{
+            text-align: left;
+            line-height: 50px;
+        }
+        div-right{
+            display: flex;
+            gap: 15px; 
+        }
+        a{
+            text-decoration: none;
+            }
+            /*css phan main*/
+            
+            div{
+                display: flex;
+                align-items: center;
+            }
+                img{   
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                text-align: center;
+            }
+            .box-model{
+                text-align: center;
+                line-height: 100px;
+                margin-top: 0%;
+                background-color: aqua;
+            }
+            div-child{
+                width: 100px;
+                height: 5px;
+                background-color: black;
+                color: white;
+                padding: 20px;
+                margin-inline: 30px;
+                text-align: center;
+                line-height: 5px;
+            }
+            /*css phan footer*/
+            .box-model{
+                background-color: gray;
+                width: 850px;
+                height: 40px;
+                margin-top: 20px;
+                line-height: 40px;
+                display: flex;
+                justify-content: center;
+            }
+             </style>
+    </head>
+    <body>
+        <header>
+            <div-left>Portfolio of  Tsubasa</div-left>
+           <div-right><a href="nowhere">Home</a>
+                <a href="nowhere">Project</a>
+                <a href="nowhere">Contact</a>
+            </div-right> 
+        </header>
+        <main>
+               <div> <img src="./bong chay.jpg" alt="">
+            
+            <span>Xin chao toi Tsubasa, mot nha phat trien sang tao Tsubasa, mot nha phat trien sang tao</span>   
+        </div>
+            <p>Du an cua toi</p>
+        <div container>
+            <div-child><a href="nowhere">Du an 1</a></div-child>
+            <div-child><a href="nowhere">Du an 2</a></div-child>
+            <div-child><a href="nowhere">Du an 3</a></div-child>
+            <div-child><a href="nowhere">Du an 4</a></div-child>
+        </div>
+        </main>
+        <footer>
+            <div class="box-model">
+                <p>Ket noi voi toi tren <a href="nowhere">linkedln</a>/<a href="nowhere">Github</a></p>
+            </div>
+        </footer>
+
+        
+    </body>
+    </html>
