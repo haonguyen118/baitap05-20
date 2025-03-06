@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        /*css phan dau trang*/
+        <style>
+        header{
+            background-color: green;
+            color: white;
+            width: 900px;
+            height: 50px;
+            display: flex;
+            justify-content : space-between;
+            line-height: 50px;  
+            padding: 20px;     
+         }
+        div-left{
+            text-align: left;
+            line-height: 50px;
+        }
+        div-right{
+            display: flex;
+            gap: 15px; 
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            }
+            /*css phan than*/
+            main{
+                background-color: azure;
+                text-align: center;
+                width: 900px;
+                height: 300px;
+                padding-inline: 20px;
+                margin-top: opx;
+            }
+            button{
+                background-color: blue;
+                color: white;
+            }
+            div-child{
+                width: 100px;
+                height: 5px;
+                background-color: black;
+                color: white;
+                padding: 20px;
+                margin-inline: 30px;
+                margin-left: 120px;
+                text-align: center;
+                line-height: 5px;
+            }
+            /*css cho phan footer*/
+            .box-model{
+                width: 900px;
+                height: 40px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                line-height: 40px;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div-left>My logo</div-left>
+           <div-right><a href="nowhere">Home</a>
+            <a href="nowhere">About</a>
+                <a href="nowhere">Service</a>
+                <a href="nowhere">Contact</a>
+            </div-right> 
+        </header>
+        <main>
+            <h1>Welcom to My website</h1>
+            <p>We provide the best solutions for the business</p>
+            <button>Get started</button>
+        </main>
+        <div container>
+            <div-child><a href="nowhere">Feature 1</a></div-child>
+            <div-child><a href="nowhere">Feature 2</a></div-child>
+            <div-child><a href="nowhere">Feature 3</a></div-child>
+        </div>
+        <footer>
+            <div class="box-model">
+                <p>Contact us <a href="nowhere">email@example.com</a></p>
+            </div>
+        </footer>
+
+    </body>
+    </html>
