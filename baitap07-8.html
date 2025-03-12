@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    header{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding:30px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin: 20px;
+    }
+    main{
+        text-align: center; 
+    }
+    .parent{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .div-child{
+        width: 150px;
+        height: 150px;
+        background-color: grey;
+        text-align: center;
+        line-height: 150px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .item{
+        width: 150px;
+        height: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+footer{
+            width: 100%;
+            height: 50px;
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            line-height: 50px;
+            margin-top: 5px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Portifolio Website</h1>
+        <div>
+            <a href="nowhere">Home</a>
+            <a href="nowhere">About</a>
+            <a href="nowhere">Postifolio</a>
+            <a href="nowhere">Contact</a>
+        </div>
+    </header>
+    <main>
+        <div style="background-color: azure;text-align: center;">
+            <h2>Welcome to My Portifolio Website </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><br>
+            <button>View Portifolio</button>
+        </div>
+        <div style="text-align: center;"><h2>Featured Work</h2></div>
+        <div class="parent">
+            <div class="div-child">150x150</div>
+            <div class="div-child">150x150</div>
+            <div class="div-child">150x150</div>
+            <div class="div-child">150x150</div>
+        </div>
+        <div class="container">
+            <div class="item">Project 1</div>
+            <div class="item">Project 2</div>
+            <div class="item">Project 3</div>
+            <div class="item">Project 4</div>
+        </div>
+        <div>
+            <h2>About Me</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.?</p>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>©2023 Portifolio Website</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
