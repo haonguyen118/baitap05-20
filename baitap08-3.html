@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item {
+    width :50%;
+    min-height: 100px;
+    background-color: black;
+    color: white;
+    text-align:left;
+    line-height:center;
+}
+@media screen and (max-width:468px) {
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns:1fr ;
+        grid-template-rows: auto ;   
+
+    }
+    .item {
+        width:100%;
+        min-height: 100px;
+        background-color: blue;
+        line-height:center;
+}
+}
+    </style>
+</head>
+<body>
+    <main>
+        <div class="item">Thong tin 1</div>
+        <div class="item">Thong tin 2</div>
+        <div class="item">Thong tin 4</div>
+        <div class="item">Thong tin 4</div>
+   </main>
+            
+    
+</body>
+</html>
